@@ -6,3 +6,25 @@
   --Padding3: 2em;
 }
 
+body {
+  display: grid; 
+  grid-template: 1fr / 1fr 2fr;
+  grid-template-areas: "menu" "content";
+}
+
+section.menu {
+  width: 330px;
+  grid-area: menu;
+}
+
+div.search {
+
+}
+
+.search input {
+
+}
+
+.search span {
+
+}
