@@ -81,19 +81,22 @@ li a:hover {
 }
 
 section.aside {
-
+  margin-top: 4em;
 }
 
 div.titulo {
-
+  font-family: var(--FuentePrincipal);
+  font-size: 1em;
+  width: 160px;
+  text-align: center;
 }
 
-.titulo h3 {
-
-}
-
-div.post {
-
+div.titulo h3 {
+  margin-left: 1em;
+  border-bottom: 3px solid var(--colorPrincipal);
+  margin-bottom: .8em;
+  padding: .5em 0;
+  font-weight: 500;
 }
 
 .post div.post-1 {
