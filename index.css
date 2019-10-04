@@ -4,6 +4,7 @@
   --Padding1: 1em; 
   --Padding2: 1.5em; 
   --Padding3: 2em;
+  --colorPrincipal: #F56A69;
 }
 
 body {
@@ -36,3 +37,46 @@ div.search {
 .search span {
   color: rgba(102, 106, 107, 0.705);
 }
+
+nav.menu {
+  text-align: left;
+  width: 280px;
+}
+
+nav ul {
+  margin-top: 5em;
+}
+
+nav ul p {
+  font-size: 1.5em;
+  border-bottom: 2px solid var(--colorPrincipal);
+  display: inline;
+}
+
+nav ul li {
+  list-style: none;
+  border-bottom: 2px solid rgba(210, 215, 217, 0.75);
+  font-size: .9em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+nav ul li:nth-of-type(1) {
+  margin-top: 3em;
+}
+
+nav ul li:nth-of-type(10) {
+  padding-bottom: 4em;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(42, 44, 44, 0.829);
+  font-family: var(--FuentePrincipal);
+}
+
+li a:hover {
+  color: var(--colorPrincipal);
+  transition: .5s;
+}
+
