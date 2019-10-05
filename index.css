@@ -5,6 +5,7 @@
   --Padding2: 1.5em; 
   --Padding3: 2em;
   --colorPrincipal: #F56A69;
+  --colorBackground: #F5F6F7;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 section.menu {
   width: 330px;
   grid-area: menu;
+  background-color: var(--colorBackground);
 }
 
 div.search {
@@ -147,3 +149,57 @@ div.button button:hover {
   background-color: rgba(245, 106, 105, .1);
   transition: .4s;
 }
+
+div.info {
+  display: flex;
+  flex-direction: column;
+}
+
+div.titulo-p {
+  margin-top: 3em;
+  border-top: 2px solid rgba(210, 215, 217, 0.75);
+  width: 270px;
+  margin-left: 1em;
+  
+}
+
+.titulo-p p.principal{
+  font-family: var(--FuentePrincipal);
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 2px solid var(--colorPrincipal);
+  display: inline-flex;
+  padding: .5em;
+}
+
+.titulo-p p.secundario {
+  font-family: var(--FuenteSecundaria);
+  font-size: .9em;
+  text-align: justify;
+  color: rgba(72, 74, 75, 0.842);
+}
+
+div.informa {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 2em;
+}
+
+div.infor {
+  flex: 1;
+  text-align: center;
+  margin-top: 2em;
+}
+
+div.informa span {
+  font-size: 1.8em;
+}
+
+div.informa p {
+  font-size: .9em;
+}
+
+
+
