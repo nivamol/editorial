@@ -201,5 +201,27 @@ div.informa p {
   font-size: .9em;
 }
 
+div.derechos {
+  margin-top: 2.5em;
+}
+
+.derechos p {
+  border-top: 2px solid rgba(210, 215, 217, 0.75);
+  font-family: var(--FuentePrincipal);
+  font-size: .7em;
+  text-align: center;
+  padding-right: 3em;
+  color: rgba(102, 106, 107, 0.705);
+  width: 240px;
+  margin-left: 1em;
+  padding: 4em 0;
+
+} 
+
+.derechos p a {
+  text-decoration: none;
+  color: black;
+} 
+
 
 
